@@ -522,6 +522,21 @@ td img {
     justify-content: flex-end;
 }
 
+.cart button {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #ff5039;
+    border: none;
+    color: #fff;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.cart button:hover {
+    background: #777;
+}
+
 td:last-child {
     text-align: right;
 }
